@@ -1,0 +1,249 @@
+/*Home page*/
+body {
+  background-color: #FCFAEB
+}
+
+#welcome-msg {
+  overflow: hidden;
+  text-align: center;
+}
+
+#homewelcome {
+  font-size: 70px;
+  margin: 30px;
+  padding: 0px;
+  text-align: center;
+  font-family: "Times News Roman", serif;
+  color: black;
+}
+
+.intro_headings {
+  text-align: left;
+  margin-left: 30px;
+  font-family: "Times News Roman", serif;
+  font-size: 32px;
+  color: black;
+
+}
+
+#intro {
+  margin: 30px;
+  font-size: 20px;
+  color: black;
+  line-height: 1.5;
+  font-family: Helvetica, sans-serif;
+  /*size, font, etc here*/
+
+}
+
+#dogpic_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.dogpic img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.dogpic p {
+  text-align: center;
+  font-size: 20px;
+  font-family: Helvetica, sans-serif;
+  color: black;
+  padding: 10px;
+}
+
+.dogpic {
+  margin: 20px;
+  width: 350px;
+}
+
+.hobbyHeading {
+  margin-left: 30px;
+  font-family: "Times News Roman", serif;
+  font-size: 27px;
+  color: black;
+}
+
+.hobbyDesc {
+  margin-left: 30px;
+  margin-bottom: 25px;
+  font-size: 20px;
+  font-family: Helvetica, sans-serif;
+  line-height: 1.5;
+  color: black;
+}
+
+
+/* navigation bar*/
+.navbar ul {
+  list-style-type: none;
+  padding: 20px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  font-size: 27px;
+  font-family: Helvetica, sans-serif;
+
+}
+
+.navbar a:hover {
+  color: #C39DF0;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar a.active {
+  text-decoration: underline;
+}
+
+.navline {
+  border-top: 1px solid black;
+  margin: 20px;
+}
+
+
+/*past page*/
+
+h2 {
+  text-align: center;
+  color: black;
+  font-size: 32px;
+  padding: 10px;
+  margin: 0px;
+  display: block;
+  font-family: "Times News Roman", serif;
+}
+
+.past_headings {
+  font-family: "Times News Roman", serif;
+  margin-left: 30px;
+  font-size: 27px;
+  color: black;
+}
+
+.past_desc {
+  margin: 30px;
+  font-size: 20px;
+  color: black;
+  line-height: 1.5;
+  font-family: Helvetica, sans-serif;
+}
+
+/*future page*/
+
+.future_desc {
+  font-size: 20px;
+  color: black;
+  line-height: 1.5;
+  font-family: Helvetica, sans-serif;
+  margin: 30px;
+}
+
+#future_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.futurepic img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.futurepic p {
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  font-family: Helvetica, sans-serif;
+  color: black;
+}
+
+.futurepic {
+  margin: 20px;
+  width: 350px;
+}
+
+/*footer*/
+footer p {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+
+
+
+/*table*/
+
+.table1 {
+  width: 90%;
+  font-family: Helvetica, sans-serif;
+  border-collapse: collapse;
+  margin: 25px auto;
+
+}
+
+.table1 td,
+.table1 th {
+  border: 1px solid;
+  padding: 8px;
+  font-size: 20px;
+  font-family: Helvetica, sans-serif;
+  line-height: 1.5;
+
+}
+
+.table1 th {
+  background-color: #B7A5CC;
+  /*change color in table*/
+
+}
+
+.table1 tr:nth-child(odd) {
+  background-color: #DDC7F5;
+}
+
+a:link {
+  color: black;
+}
+
+a:hover {
+  color: #C08CFF;
+}
+
+span {
+  color: #7D55AD;
+  font-weight: bold;
+}
+
+
+/*comments page*/
+
+.comments_desc {
+  margin: 20px;
+  font-size: 20px;
+  color: black;
+  line-height: 1.5;
+  font-family: Helvetica, sans-serif;
+}
+
+.comments_heading {
+  font-family: "Times News Roman", serif;
+  margin-left: 20px;
+  font-size: 27px;
+  color: black;
+}
